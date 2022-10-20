@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Flex:opsz@8..144&display=swap');
+
+/* selectores de etiqueta */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+
+body {background-image: url(../img/fondos.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+     }
+
+h1,
+h2,
+h3{
+	color: white;
+	font-size: 3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+
+p{
+	font-family: 'Roboto Flex', sans-serif;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	color: #A29E9E;
+	font-weight: 600;
+}
+
+legend{
+
+    font-family: 'Roboto Flex', sans-serif;
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+	color: #A29E9E;
+}
+
+nav{background-color: rgba(0, 0, 0, 0.8) ;}
+
+ 
+  nav ul{
+      list-style: none;
+      font-size: 2rem;
+ 	  color: #E7D5D5;
+ 	  font-family: 'Roboto Flex', sans-serif;
+ 	 
+}
+
+
+  nav ul li{
+	 display: inline-block;
+}
+
+    nav ul li a{
+   	    text-decoration: none;
+   	    font-size: 2rem;
+   	    color: #E7D5D5;
+   	    font-family: 'Roboto Flex', sans-serif;
+   	    display: inline-block;
+   	    margin: 0 20px;
+   	  
+
+   } 
+
+      nav ul li a:hover{
+   	     font-weight: 600;
+   	     color: white;
+   }
+
+
+ div ol{
+ 	list-style: decimal;
+ 	font-size: 1.8rem;
+ 	color: #B5A0A0;
+ }  
+
+    div ol li a{
+   	    text-decoration: none;
+   	    font-size: 1.8rem;
+   	    color: #B5A0A0;
+   	    font-family: 'Roboto Flex', sans-serif;
+   	    display: inline-block;
+   }
+
+      div ol li a:hover{
+      	 font-weight: 600;
+   	     color: white;
+      }
+
+ label{
+
+   	font-family: 'Roboto Flex', sans-serif;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	color: #F0E5E5;
+	font-weight: 400;
+
+   }
+
+/*informacion de call of duty-
+informaicon de proximamente-PROMOCIONES Y DESCUENTOS
+mensaje de bienvenida (comunidad)-comentarios (comunidad)
+mensaje de soporte-informacion del precio (hardware)
+precios de software*/
+.bgDark{
+	background-color: #413F3F;
+}
+
+/*botonera-tendencia y recomendados-
+PROXIMAMENTE-PROMOCIONES Y DESCUENTOS-
+INICIAR SESION-COMUNIDAD-SOPORTE-
+Problemas: - navegacion de hardware-
+Consolas;Accesorios (hardware)- navegacion de
+software- Nuevos juegos-
+*/
+.textCenter{
+	text-align: center;
+}
+
+/* index*/
+
+/*navegacion principal*/
+
+/*navegacion principal-navegacion top*/
+.text-short{
+	font-size: 1.5rem;
+}
+
+.logoNav{
+	position: relative;
+	top: 35px;
+	left: 50px;
+	width: 20%;
+}
+
+.encabezadoBox{
+	text-align: right;
+	padding: 5px 0;
+	position: relative;
+	bottom: 55px;
+
+}
+
+/*botonera*/
+
+.encabezadoNav{
+        position: relative;
+        bottom: 55px;
+
+}
+
+/*navegacion top*/
+
+.navegacionTop{
+	text-align: center;
+	width: auto;
+	position: relative;
+	top: 20px;
+	
+}
+
+/*tendencia y recomendados*/
+
+
+.tituloPrincipal{
+	position: relative;
+	top: 50px;
+}
+
+.bgBlack{
+	background-color: #1E1E1E;
+	width: 15%;
+	padding: 0 30px;
+	margin: 10px;
+	position: relative;
+	top: 60px;
+}
+
+.text-medium{
+	font-size: 2rem;
+	position: relative;
+	left: 22.5px;
+	bottom: 5px;
+	padding: 10px;
+}
+
+/*imagen de call of duty con texto*/
+
+#contenedor{
+	display:inline-flex;
+	padding: 60px;
+	position: relative;
+	left: 300px;
+	bottom: 300px;
+}
+
+.imagenHorizontal{
+	width: 40%;
+	height: 320px;
+}
+
+.recomended-medium{
+	
+	padding: 50px;
+	border: double black 10px;
+	width: 25%;
+}
+
+/*Bloque grande*/
+#bloque{
+	position: relative;
+	bottom: 215px;
+
+}
+
+/*PROXIMAMENTE*/
+
+.encabezado__img--fluid{
+	width: 42.5%;
+	margin: auto;
+}
+
+/*PROXIMAMENTE-PROMOCIONES Y DESCUENTOS*/
+
+.tituloAll{
+	position: relative;
+	bottom: 20px;
+}
+
+.article-b{
+	
+	display: inline-flex;
+	position: relative;
+	left: 115px;
+
+}
+
+/*consola-*/
+.imagenMedium{
+
+	width: 20%;
+	height: 305px;
+	padding: 50px;
+}
+
+/*cosolas-*/
+.imagen-proxi{
+	width: 20%;
+	padding: 50px;
+
+}
+
+/*texto-PROXIMAMENTE*/
+
+.texto-med{
+	display: inline-flex;
+}
+
+.texto{
+	border: double;
+	width: 20.5%;
+	margin: 50px;
+	position: relative;
+	left: 115px;
+	bottom: 100px;
+}
+
+/*PROMOCIONES Y DESCUENTOS*/
+
+.contenedor-b{
+	display:inline-flex;
+}
+
+.imagenLarge{
+	width: 60%;
+	height: 50%;
+}
+
+.articleMedium{
+	display: inline-block;
+	padding: 50px;
+	width: 50%;
+	height: auto;
+	border: double black 10px;
+
+}
+
+/*SORTEOS Y RECOMPENSAS*/
+
+.contenedor-c{
+	position: relative;
+	top: 130px;
+}
+
+.article{
+
+	display: inline-flex;
+	position: relative;
+	left: 110px;
+}
+
+.article__img--solid{
+	width: 20%;
+	padding: 50px;
+}
+
+/*texto de sorteos y recompensas*/
+
+.bgLight{
+	background-color: #191313;
+}
+
+.informacion__articulo{
+	padding: 50px;
+	width: 75%;
+	height: auto;
+	margin: auto;
+	border: double black 10px;
+}
+
+.textRed{
+	color: red;
+}
+
+/*CONTACTO*/
+
+.article-contacto{
+	position: relative;
+	top: 170px;
+}
+
+.miniContenedor{
+	width: 16.5%;
+}
+
+/*FOOTER*/
+
+.pie{
+	padding: 20px 0;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+.pie__titulo--md{
+    display: inline;
+    font-size: 3rem;
+
+}
+
+/*utilizo en iniciar sesion*/
+.pie__icon--sm{
+	width: 40px;
+}
+
+/*FIN de index*/
+
+
+
+/*INICIAR SESION*/
+
+.bloque-sesion{
+	position: relative;
+	top: 45px;
+}
+
+.tituloSesion{
+	padding: 20px;
+}
+
+.sesion-cuadro{
+	padding: 20px;
+	border: double black 10px;
+	width: 25%;
+	height: 200px;
+	margin: auto;
+	background-image: url(../img/logo-iniciar-sesion.jpg);
+	background-size: auto;
+    background-attachment: fixed;
+
+}
+
+.bloqueEnlacesi{
+	text-align: center;
+}
+
+/*enlaces: soporte*/
+.enlaces{
+
+    list-style: none;
+	text-decoration: none;
+   	font-size: 1.5rem;
+   	color: #E7D5D5;
+   	font-family: 'Roboto Flex', sans-serif;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.enlacesIlumin:hover{
+	font-weight: 600;
+	color: white;
+}
+/*fin de enlaces: soporte*/
+
+
+/*COMUNIDAD*/
+
+/*soporte-Consolas*/
+.Titulo{
+	padding: 30px;
+	position: relative;
+	right: 5px;
+}
+
+.bienvenida{
+	padding: 10px;
+	margin: auto;
+	width: 50%;
+	border: double black 5px
+}
+
+.mensaje-participate{
+	width: 30%;
+	height: 60px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+#discusion{
+	text-align: center;
+	position: relative;
+	top: 50px;
+
+}
+
+.mensaje{
+	position: relative;
+	right: 325px;
+}
+
+#discusion p{
+	width: auto;
+	margin: 20px;
+	padding: auto;
+}
+
+.comentarios{
+	border: double black 5px;
+	padding: 30px;
+	margin: 40px;
+	width: 50%;
+	position: relative;
+	left: 275px;
+}
+
+
+/*SOPORTE*/
+
+#soporte{
+	text-align: center;
+}
+
+.problemas{
+	border: double black 5px;
+	width: 25%;
+	padding: 20px;
+    margin: auto;
+
+}
+
+.productosComunes{
+	border: double black; 5px;
+	background-color: #1E1E1E;
+	width: 20%;
+	position: relative;
+	padding: 30px;
+	top: 20px;
+}
+
+.cuadro{
+	position: relative;
+	top: 50px;
+}
+
+.textoProblem{
+	position: relative;
+	bottom: 200px;
+	right: 220px;
+	font-size: 2.5rem;
+}
+
+.cuadro ul li{
+	background-color: #1E1E1E;
+	display: inline-flex;
+	padding: 0.5px;
+	margin: 5px;
+	position: relative;
+	left: 400px;
+	bottom: 200px;
+
+}
+
+.cuadro ul li a{
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+
+
+}
+
+
+/*HARDWARE*/
+
+/*Nuevos juegos(software)- Juegos populare(software)*/
+.tituloHardware{
+	padding: 20px;
+}
+
+.imagenHeroe{
+	width: 100%;
+    padding: 20px 0;
+    height: 450px;
+}
+
+.bloque-tienda{
+	position: relative;
+	left: 20px;
+}
+
+/*fondo de Nuevos juegos y Juego populares(software)*/
+.bloque-ventas{
+
+	height: 480px;
+	border: double black 10px;
+	background-image: url(../img/fondo-ventas.jpg);
+	background-size: auto;
+    background-attachment: fixed;
+
+}
+
+#consolas{
+	margin: auto;
+	display: inline-flex;
+	padding: auto;
+
+}
+
+#consolas img{
+	position: relative;
+	left: 120px;
+}
+
+/*precios(software)*/
+.info-consolas{
+	display: inline-flex;
+}
+
+.precio-one{
+	border: double;
+	width: 255px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 128px;
+	bottom: 95px;
+}
+
+
+.precio-two{
+	border: double;
+	width: 253px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 142.5px;
+	bottom: 95px;
+}
+
+.precio-three{
+	border: double;
+	width: 252px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 159px;
+	bottom: 95px;
+}
+
+/*SOFTWARE*/
+
+.bloque-buscar{
+	padding: 20px;
+}
+
+.imagenVentas img{
+     position: relative;
+     left: 100px;
+
+}
+
+.precio-a{
+	border: double;
+	width: 255px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 108px;
+	bottom: 95px;
+}
+
+
+.precio-b{
+	border: double;
+	width: 253px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 128px;
+	bottom: 95px;
+}
+
+.precio-c{
+	border: double;
+	width: 251px;
+	margin: 40px;
+	padding: 5px;
+	position: relative;
+	left: 145px;
+	bottom: 95px;
+}
+
+#extense{
+	text-align: center;
+}
+
+#extense a{
+    position: relative;
+    bottom: 120px;
+	list-style: none;
+    font-size: 2rem;
+    text-decoration: none;
+ 	color: #E7D5D5;
+ 	font-family: 'Roboto Flex', sans-serif;
+}
+
+#extense a:hover{
+   	     font-weight: 600;
+   	     color: white;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
