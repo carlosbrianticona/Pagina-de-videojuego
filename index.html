@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>ONLY GAME juegos en venta - pc - ps4 - ps5</title>
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
        
-    
-	<!-- navegacion principal-->
+    <!-- navegacion principal-->
 
-	<nav>
+	<nav class="cajaMadre">
 		
-		<a 
+		<a href="../index.html">
 
-	  	 href="../index.html">
 	  	 <img src="img/logo.png" alt="logo de ONLY GAME" class="logoNav">
 
 	  	</a>
 	
-	  	
-        <header class="encabezadoBox">
+	<header class="encabezadoBox">
 
-        
-	    <ul> 
+		<ul class="cajaMadre"> 
+
 	  	   <li>
 	  	       <a href="./pages/iniciar-sesion.html"class="text-short">iniciar sesion</a>
 	  	   </li>
@@ -37,17 +34,18 @@
 	  	   	 <option value="español">Español</option>
 	  	   	 <option value="ingles">Ingles</option>
 	  	   	 <option value="otros idiomas">Otros idiomas...</option>
+           </select> 
 
-	  	   </select> 
 	  	   </li>
-	  	   </header>
-	  	   <br>
-	  	   </ul>
+
+	  	</ul>
+
+	</header>
 
 	 <!-- INICIO DE BOTONERA -->
 
-    <div class="encabezadoNav">
-    <ul class="textCenter">
+    <div class="Menu">
+        <ul class="textCenter">
 
            <li>
 	  	  	   <a href="./pages/software.html">SOFTWARE</a>
@@ -65,9 +63,10 @@
 	  	  	   <a href="./pages/soporte.html">SOPORTE</a>
 	  	   </li> 
 
-	  	</div>
-	    </ul>
-	    </nav>
+        </ul>
+
+    </div>
+	</nav>
 
 	<!-- FIN DE LA BOTONERA -->
 
@@ -82,10 +81,9 @@
            <label for="Buscar">Buscar:</label>
 	       <input type="text" name= "Buscar" id= "Buscar" placeholder="buscar">
 
-	   </section>
-	   </li>
+	    </section>
+	    </li>
         
-	    	
 	    	<li>
 	    		<a href="accion y aventura.html" class="text-short">ACCION Y AVENTURA</a>
 	    	</li>
@@ -106,16 +104,18 @@
 	    		<a href="multijugador.html" class="text-short">MULTIJUGADOR</a>
 	    	</li>
 
-	    	</ul>
-	        </nav>
+	    </ul>
+        </nav>
 
 	    <h2 class="textCenter tituloPrincipal">TENDENCIA Y RECOMENDADOS</h2>
-	     
-        <div class="bgBlack">
+
+	<main id="cajaPadre">
+
+        <div class="tendencia">
 
 	    	<h3 class="text-medium">TOP 10</h3>
-
-	    	<ol>
+        
+	    	<ol class="borde">
 
 	    	<li>
 	    	   <a href="A Plague Tale: Requiem.html">A Plague Tale: Requiem</a>
@@ -159,119 +159,95 @@
             </ol>
              
         </div>  
-
+    </div>
        
-        <div id="contenedor">
-
-
-
-            <img src="img/header.jpg" alt="call of duty modern warfare" class="imagenHorizontal">
-
-            <p class="bgDark recomended-medium">INFORMACION: Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti, veritatis nisi dicta tempora recusandae similique pariatur ea magnam, quod sunt harum obcaecati commodi explicabo, sed maxime incidunt natus excepturi!</p>
-
+        <div class="contenedorPro">
+            <img src="img/header.jpg" alt="call of duty modern warfare" class="imagenPopular">
         </div>
-          
-       
+    
+        <article class="bgDark info">
+            <p>INFORMACION: Lorem ipsum dolor sit amet consectetur adipisicing elit. Est corrupti, veritatis nisi dicta tempora recusandae similique pariatur ea magnam, quod sunt harum obcaecati commodi explicabo, sed maxime incidunt natus excepturi!</p>
+		</article>
 
+    </main> 
         
-           
-    <div id="bloque">
+	
     	
+        <header class="proximoJuego">
 
-	    <header class="encabezado__img--fluid">
-
-	    	<h2 class="textCenter tituloAll">PROXIMAMENTE</h2>
-
-	    	<iframe width="560" height="315" src="https://www.youtube.com/embed/vtFhDrMIZjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2 class="textCenter titulo-proxi-prom-desc">PROXIMAMENTE</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vtFhDrMIZjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	    </header>
 
-	        <br>
-            <br>
+	<article class="article-b">
+
+        <div class="vertical">
+           <img src="img/proxi.jpg" alt="fifa 23"class= "imagenMedium">
+		   <p class="bgDark texto">
+			Informacion de cuando va a salir el juego
+		   </p>
+        </div>
+
+		<div class="vertical">
+           <img src="img/proximamente 2.jpg" alt="death stranding">
+		   <p class="bgDark texto">
+			Informacion de cuando va a salir el juego
+		   </p>
+		</div>
 
 
-        
-	    <article class="article-b">
+        <div class="vertical">
+		   <img src="img/proximamente 3.jpg" alt="plantas vs zombie">
+		   <p class="bgDark texto">
+			Informacion de cuando va a salir el juego
+		   </p>
+		</div>
 
-	    	<img src="img/proxi.jpg" alt="fifa 23"class="imagenMedium">
-
-	    	<img src="img/proximamente 2.jpg" alt="death stranding" class="imagen-proxi"> 
-
-	    	<img src="img/proximamente 3.jpg" alt="plantas vs zombie" class="imagen-proxi">
-
-	    </article>
-
-	    <main class="texto-med">
-	    	 
-        <div class="bgDark texto">
-
-	    	<p>
-	    		Informacion de cuando va a salir el juego
-	    	</p>
-	    </div>
-
-        
-        <div class="bgDark texto">
-	    	<p>
-	    		Informacion de cuando va a salir el juego
-	        </p>
-	    </div>
-
-
-	    <div class="bgDark texto">
-            <p>
-            	Informacion de cuando va a salir el juego
-            </p>
-	    </div>
-	    </main>
+	</article>
+       
 	    
-	    <header>
-        <h3 class="textCenter tituloAll">PROMOCIONES Y DESCUENTOS</h3>
-	    </header>
+	    <section>
+        <h3 class="textCenter titulo-proxi-prom-desc">PROMOCIONES Y DESCUENTOS</h3>
+		</section>
 
-	    <div class="contenedor-b">
+	<div class="contenedor-b">
 
 	    <img src="img/promocion .jpg" alt="3x2 en juegos" class="imagenLarge">
 
         <article class="bgDark articleMedium">
+          <p>Informacion: Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Vel quam qui pariatur maxime sapiente asperiores ea incidunt quos rerum blanditiis eveniet voluptates molestias, animi ex possimus non, fugit iste consectetur? Lorem ipsum, dolor sit amet consectetur adipisicing, elit. In optio, tenetur necessitatibus quia tempore alias molestiae. Sunt pariatur assumenda ratione, neque voluptates. Accusamus inventore, facere iusto, deleniti asperiores molestias quidem?</p>
+        </article>
 
-	    	<p>Informacion: Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Vel quam qui pariatur maxime sapiente asperiores ea incidunt quos rerum blanditiis eveniet voluptates molestias, animi ex possimus non, fugit iste consectetur? Lorem ipsum, dolor sit amet consectetur adipisicing, elit. In optio, tenetur necessitatibus quia tempore alias molestiae. Sunt pariatur assumenda ratione, neque voluptates. Accusamus inventore, facere iusto, deleniti asperiores molestias quidem?</p>
+	</div>
 
-	    </article>
-	    </div>
+        <div class="contenedor-c">
 
+            <h3 class="textCenter">SORTEOS Y RECOMPENSAS</h3>
 
-	    <div class="contenedor-c">
+	        <header class="article">
 
-        <h3 class="textCenter">SORTEOS Y RECOMPENSAS</h3>
+                <img src="img/sorteo.jpg " alt="xbox one" class="sorteo-img">
 
-	    <header class="article">
+	            <img src="img/sorteo 2.jpg" alt="Xbox Series X Microsoft 1 TB" class="sorteo-img">
 
-	    	
-            <img src="img/sorteo.jpg " alt="xbox one" class="article__img--solid">
+	    	    <img src="img/sorteo 3.png" alt="PC gamers" class="sorteo-img">
 
-	    	<img src="img/sorteo 2.jpg" alt="Xbox Series X Microsoft 1 TB" class="article__img--solid">
-
-	    	<img src="img/sorteo 3.png" alt="PC gamers" class="article__img--solid">
-
-	    </header>
-
-	    	 <article class="bgLight informacion__articulo">
-
+            </header>
+	            
+            <article class="bgLight infoDesorteo">
 	    	 <p> <strong class="textRed">INFORMACION Y REQUISITOS PARA PARTICIPAR:</strong>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Omnis itaque cupiditate est, nesciunt minus cum voluptas iste vitae eos soluta, perspiciatis amet commodi quas velit ratione nemo. Maxime, placeat, ducimus. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Enim asperiores nisi placeat corrupti dolorum praesentium, nihil neque nulla nemo tempora cumque corporis, pariatur velit, consectetur similique, officia voluptatum dicta architecto. Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Dolorum delectus, quasi. Adipisci provident accusamus sunt ut, ducimus mollitia, ad sit, et odio ea officia fuga totam. Eius porro vitae perferendis?</p>
+            </article>
 
-	    	 </article>
-	    	 </div>
+	    </div>
 	    	
-       
-
-	    <main class="article-contacto">
+        <main class="contacto">
 	    	<section>
-	    		<h2>CONTACTO</h2>
+	    		<h2 class="titulo-contacto">CONTACTO</h2>
 	    		<form action="envio.php" method="post"> 
 
 	    			<fieldset class="miniContenedor">
-	    				<legend>info del usuario</legend>
+	    				<legend class="epigrafe">info del usuario</legend>
 	    				<label for="nombre">Nombre</label>
 	    				<br>
 	    				<input type="text" name= "nombre" id= "nombre" placeholder="Carlos Brian">
@@ -289,32 +265,31 @@
 	    				<input type="phone" name="phone" id="phone" placeholder="cod de pais-numero">
 	                </fieldset>
 
-	            <fieldset class="miniContenedor">
-	            <legend>Info de comunicacion</legend>
+	    <fieldset class="miniContenedor">
+	    <legend class="epigrafe">Info de comunicacion</legend>
 
-	               <label for="whatsapp">Whatsapp</label>
-	               
-	                  <input type="radio" value="whatsapp" id="whatsapp" name="info de comunicacion"> 
+                <label for="whatsapp">Whatsapp</label>
+	            <input type="radio" value="whatsapp" id="whatsapp" name="info de comunicacion"> 
 
-	               <label for="telegram">Telegram</label>
-	                  <input type="radio" value="telegram" id="telegram" name="info de comunicacion">
-
-	            </fieldset>
+	            <label for="telegram">Telegram</label>
+	            <input type="radio" value="telegram" id="telegram" name="info de comunicacion">
+        
+		</fieldset>
 
 	  	        <label for="mensaje">Mensaje</label>
 	  	        <br>
-	  	        <textarea cols="30" rows="10"></textarea>
+				<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
 	  	        <br>
 	  	        <input type="submit" value="Enviar">
 	  	        <input type="reset" value="Canselar">
 
                 </form>
-	            </section>
-	            </main> 
+	        </section>
+	    </main> 
 
-	    <footer class="pie">
+	    <footer class="redesSociales">
 
-	        <h3 class="pie__titulo--md">Seguinos en nuestras redes</h3>
+	        <h3 class="titulo-de-redes">Seguinos en nuestras redes</h3>
             <a href="https://www.facebook.com/user">
 	    	<img src="img/facebook.png" alt="seguinos en facebook" class="pie__icon--sm">
             </a>
@@ -322,7 +297,6 @@
 	    	<img src="img/twitter.png" alt="seguinos en twitter" class="pie__icon--sm">
             </a>
 
-        </div>
         </footer>
    
 </body>

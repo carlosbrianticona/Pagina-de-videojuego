@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Flex:opsz@8..144&display=swap');
 
+.contenedor{
+	border: 2px solid black;
+	padding: 50px;
+	margin: 5px;
+	width: 320px;
+	height: 320px;
+	text-align: center;
+	line-height: 70px;
+}
+
+.flex-blox{
+    display: flex;
+	padding: 50px;
+	flex-flow: row wrap;
+	
+}
+
+.imagenMin{
+	width: 320px;
+	height: 320px;
+}
+
 /* selectores de etiqueta */
 
 *{
@@ -149,10 +171,9 @@ software- Nuevos juegos-
 
 /*botonera*/
 
-.encabezadoNav{
-        position: relative;
-        bottom: 55px;
-
+.Menu{
+    position: relative;
+    bottom: 55px;
 }
 
 /*navegacion top*/
@@ -160,115 +181,108 @@ software- Nuevos juegos-
 .navegacionTop{
 	text-align: center;
 	width: auto;
+	height: 32px;
 	position: relative;
-	top: 20px;
-	
+	top: 10px;
 }
 
 /*tendencia y recomendados*/
 
 
 .tituloPrincipal{
+	padding: 20px;
 	position: relative;
-	top: 50px;
+	top: 10px;
 }
 
-.bgBlack{
+.tendencia{
 	background-color: #1E1E1E;
-	width: 15%;
-	padding: 0 30px;
-	margin: 10px;
+	width: 250px;
+	height: 320px;
+	padding-right: 60px;
+	margin: 0  80px  0  15px;
+	border: 4px solid black;
+}
+
+.borde{
 	position: relative;
-	top: 60px;
+	left: 40px;
 }
 
 .text-medium{
 	font-size: 2rem;
 	position: relative;
 	left: 22.5px;
-	bottom: 5px;
-	padding: 10px;
+	bottom: 10px;
+	padding: 20px 10px 0 ;
+	mar
 }
 
 /*imagen de call of duty con texto*/
 
-#contenedor{
-	display:inline-flex;
-	padding: 60px;
+.contenedorPro{
+    padding-right: 20px;
+}
+
+#cajaPadre{
+	display:flex;
+	flex-direction: row;
+}
+
+.imagenPopular{
+	height: 325px;
+	width: 650px;
+}
+
+.info{
+	padding: 10px;
 	position: relative;
-	left: 300px;
-	bottom: 300px;
-}
-
-.imagenHorizontal{
-	width: 40%;
-	height: 320px;
-}
-
-.recomended-medium{
-	
-	padding: 50px;
-	border: double black 10px;
-	width: 25%;
-}
-
-/*Bloque grande*/
-#bloque{
-	position: relative;
-	bottom: 215px;
-
+	right: 20px;
+	border: double black 5px;
+	width: 220px;
+	height: 295px;
 }
 
 /*PROXIMAMENTE*/
 
-.encabezado__img--fluid{
+.proximoJuego{
 	width: 42.5%;
 	margin: auto;
 }
 
 /*PROXIMAMENTE-PROMOCIONES Y DESCUENTOS*/
 
-.tituloAll{
-	position: relative;
-	bottom: 20px;
+.titulo-proxi-prom-desc{
+	padding: 30px;
 }
 
 .article-b{
-	
-	display: inline-flex;
-	position: relative;
-	left: 115px;
-
+	padding: 60px;
+	margin: 0 40px 0 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-between;
 }
 
-/*consola-*/
+.vertical{
+	align-items: center;
+	border: 4px solid black;
+}
+
+
 .imagenMedium{
-
-	width: 20%;
-	height: 305px;
-	padding: 50px;
-}
-
-/*cosolas-*/
-.imagen-proxi{
-	width: 20%;
-	padding: 50px;
-
+    width: 308px;
+	height: 350px;
+	
 }
 
 /*texto-PROXIMAMENTE*/
 
-.texto-med{
-	display: inline-flex;
-}
-
 .texto{
-	border: double;
-	width: 20.5%;
-	margin: 50px;
-	position: relative;
-	left: 115px;
-	bottom: 100px;
+	border: double black;
+	width: 301.5px;
+	
 }
 
 /*PROMOCIONES Y DESCUENTOS*/
@@ -283,29 +297,22 @@ software- Nuevos juegos-
 }
 
 .articleMedium{
-	display: inline-block;
 	padding: 50px;
-	width: 50%;
-	height: auto;
 	border: double black 10px;
-
 }
 
 /*SORTEOS Y RECOMPENSAS*/
 
 .contenedor-c{
 	position: relative;
-	top: 130px;
+	top: 100px;
 }
 
 .article{
-
-	display: inline-flex;
-	position: relative;
-	left: 110px;
+   padding-left: 150px;
 }
 
-.article__img--solid{
+.sorteo-img{
 	width: 20%;
 	padding: 50px;
 }
@@ -316,7 +323,7 @@ software- Nuevos juegos-
 	background-color: #191313;
 }
 
-.informacion__articulo{
+.infoDesorteo{
 	padding: 50px;
 	width: 75%;
 	height: auto;
@@ -330,28 +337,39 @@ software- Nuevos juegos-
 
 /*CONTACTO*/
 
-.article-contacto{
+.contacto{
 	position: relative;
 	top: 170px;
+	margin: 0  0  0  20px;
 }
 
 .miniContenedor{
 	width: 16.5%;
+	padding: 10px;
+}
+
+.epigrafe{
+	font-size: 2rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 750;
+}
+
+.titulo-contacto{
+	padding: 10px;
 }
 
 /*FOOTER*/
 
-.pie{
+.redesSociales{
 	padding: 20px 0;
 	text-align: center;
 	position: relative;
 	top: 150px;
 }
 
-.pie__titulo--md{
+.titulo-de-redes{
     display: inline;
     font-size: 3rem;
-
 }
 
 /*utilizo en iniciar sesion*/
@@ -514,8 +532,6 @@ software- Nuevos juegos-
     padding: 10px;
     margin: 10px;
     height: 40px;
-
-
 }
 
 
